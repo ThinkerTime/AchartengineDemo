@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_single_point_left"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.king.achartenginedemo.activity.SinglePointLeftActivity">
+
+    <LinearLayout
+        android:id="@+id/chart_ll"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onStart"
+        android:text="开始"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onStop"
+        android:text="停止"/>
+
+</LinearLayout>
